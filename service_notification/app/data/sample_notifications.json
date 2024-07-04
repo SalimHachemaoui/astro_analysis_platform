@@ -1,0 +1,11 @@
+[
+    {
+        "timestamp": "2024-07-02T10:00:00Z",
+        "message": "New data collected for telescope_01"
+    },
+    {
+        "timestamp": "2024-07-02T10:01:00Z",
+        "message": "New data collected for telescope_02"
+    }
+    
+]

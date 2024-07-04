@@ -1,0 +1,17 @@
+[
+    {
+        "timestamp": "2024-07-02T10:00:00Z",
+        "value": 12.34,
+        "instrument_id": "telescope_01"
+    },
+    {
+        "timestamp": "2024-07-02T10:01:00Z",
+        "value": 15.67,
+        "instrument_id": "telescope_02"
+    },
+    {
+        "timestamp": "2024-07-02T10:02:00Z",
+        "value": 11.45,
+        "instrument_id": "telescope_01"
+    }
+]

@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  data_collection:
+    build: ./service_data_collection
+    ports:
+      - "8001:80"
+    environment:
+      - PYTHONPATH=/app
+  data_analysis:
+    build: ./service_data_analysis
+    ports:
+      - "8002:80"
+    environment:
+      - PYTHONPATH=/app
+  visualization:
+    build: ./service_visualization
+    ports:
+      - "8003:80"
+    environment:
+      - PYTHONPATH=/app
+  notification:
+    build: ./service_notification
+    ports:
+      - "8004:80"
+    environment:
+      - PYTHONPATH=/app
+  frontend:
+    build: ./Front-end/astro_analysis_frontend
+    ports:
+      - "8080:8080"

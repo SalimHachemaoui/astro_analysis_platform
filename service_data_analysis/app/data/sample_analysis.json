@@ -1,0 +1,12 @@
+{
+    "timestamp": "2024-07-02T10:00:00Z",
+    "instrument_id": "telescope_01",
+    "analysis_result": {
+        "signal_strength": 0.95,
+        "object_detected": "star",
+        "coordinates": {
+            "ra": "10h21m00s",
+            "dec": "-10°15'00\""
+        }
+    }
+}
